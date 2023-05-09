@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: jaffle_shop
+    database: dbt-course-modularity
+    dataset: dbt_mskogstadstubbs
+    tables:
+      - name: orders
+      - name: customers
